@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 // Recursive Factorial
-int factorial(int n) {
+long long factorial(int n) {
     if (n == 0 || n == 1)
         return 1;   // Base case
     return n * factorial(n - 1);
@@ -48,7 +48,7 @@ int main() {
             if (n < 0)
                 printf("Factorial not defined for negative numbers.\n");
             else
-                printf("Factorial of %d = %d\n", n, factorial(n));
+                printf("Factorial of %lld = %lld\n", n, factorial(n));
             break;
 
         case 2:
@@ -80,3 +80,4 @@ int main() {
 
     return 0;   
 }
+
