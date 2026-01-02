@@ -11,7 +11,8 @@ int main(){
             count += 1;
         }
     }
-    printf("Total number of Word1 in array: %d\n",count);
+    printf("Total number of Words in array: %d\n",count);
     return 0;
+
 
 }
