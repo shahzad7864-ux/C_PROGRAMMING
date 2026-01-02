@@ -20,8 +20,9 @@ int main() {
     }
 
     printf("Sorted array: ");
-    for(int i=0; i < 5; i++)
+    for(int i=0; i<n ; i++)
         printf("%d \n", arr[i]);
 
     return 0;
 }
+
